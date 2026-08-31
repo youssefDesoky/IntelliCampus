@@ -1,0 +1,222 @@
+[
+  {
+    "examScheduleId": 1,
+    "date": "2026-07-15",
+    "examType": "Midterm",
+    "courseCode": "CS101",
+    "courseName": "Introduction to Programming",
+    "courseNameAr": "مقدمة في البرمجة",
+    "startTime": "09:00:00",
+    "endTime": "11:00:00",
+    "location": "Hall A - Room 101"
+  },
+  {
+    "examScheduleId": 2,
+    "date": "2026-07-18",
+    "examType": "Midterm",
+    "courseCode": "MATH201",
+    "courseName": "Linear Algebra",
+    "courseNameAr": "الجبر الخطي",
+    "startTime": "10:00:00",
+    "endTime": "12:00:00",
+    "location": "Science Building - Room 205"
+  },
+  {
+    "examScheduleId": 3,
+    "date": "2026-07-20",
+    "examType": "Midterm",
+    "courseCode": "PHYS101",
+    "courseName": "Physics I",
+    "courseNameAr": "الفيزياء ١",
+    "startTime": "13:00:00",
+    "endTime": "15:00:00",
+    "location": "Physics Lab - Room 301"
+  },
+  {
+    "examScheduleId": 4,
+    "date": "2026-07-22",
+    "examType": "Midterm",
+    "courseCode": "ENG101",
+    "courseName": "English Composition",
+    "courseNameAr": "التعبير الإنجليزي",
+    "startTime": "09:00:00",
+    "endTime": "10:30:00",
+    "location": "Humanities Hall - Room 50"
+  },
+  {
+    "examScheduleId": 5,
+    "date": "2026-08-10",
+    "examType": "Final",
+    "courseCode": "CS101",
+    "courseName": "Introduction to Programming",
+    "courseNameAr": "مقدمة في البرمجة",
+    "startTime": "09:00:00",
+    "endTime": "12:00:00",
+    "location": "Hall A - Room 101"
+  },
+  {
+    "examScheduleId": 6,
+    "date": "2026-08-12",
+    "examType": "Final",
+    "courseCode": "MATH201",
+    "courseName": "Linear Algebra",
+    "courseNameAr": "الجبر الخطي",
+    "startTime": "10:00:00",
+    "endTime": "13:00:00",
+    "location": "Science Building - Room 205"
+  },
+  {
+    "examScheduleId": 7,
+    "date": "2026-08-15",
+    "examType": "Final",
+    "courseCode": "PHYS101",
+    "courseName": "Physics I",
+    "courseNameAr": "الفيزياء ١",
+    "startTime": "13:00:00",
+    "endTime": "16:00:00",
+    "location": "Physics Lab - Room 301"
+  },
+  {
+    "examScheduleId": 8,
+    "date": "2026-08-17",
+    "examType": "Final",
+    "courseCode": "ENG101",
+    "courseName": "English Composition",
+    "courseNameAr": "التعبير الإنجليزي",
+    "startTime": "09:00:00",
+    "endTime": "11:00:00",
+    "location": "Humanities Hall - Room 50"
+  },
+  {
+    "examScheduleId": 9,
+    "date": "2026-06-10",
+    "examType": "Midterm",
+    "courseCode": "CS102",
+    "courseName": "Data Structures",
+    "courseNameAr": "هياكل البيانات",
+    "startTime": "11:00:00",
+    "endTime": "13:00:00",
+    "location": "CS Lab - Room 401"
+  },
+  {
+    "examScheduleId": 10,
+    "date": "2026-06-25",
+    "examType": "Midterm",
+    "courseCode": "CS201",
+    "courseName": "Algorithms",
+    "courseNameAr": "الخوارزميات",
+    "startTime": "14:00:00",
+    "endTime": "16:00:00",
+    "location": "CS Lab - Room 402"
+  },
+  {
+    "examScheduleId": 11,
+    "date": "2026-07-02",
+    "examType": "Midterm",
+    "courseCode": "CS301",
+    "courseName": "Database Systems",
+    "courseNameAr": "نظم قواعد البيانات",
+    "startTime": "09:00:00",
+    "endTime": "11:00:00",
+    "location": "CS Lab - Room 403"
+  },
+  {
+    "examScheduleId": 12,
+    "date": "2026-07-03",
+    "examType": "Midterm",
+    "courseCode": "CS202",
+    "courseName": "Object-Oriented Programming",
+    "courseNameAr": "البرمجة كائنية التوجه",
+    "startTime": "13:00:00",
+    "endTime": "15:00:00",
+    "location": "Hall B - Room 201"
+  },
+  {
+    "examScheduleId": 13,
+    "date": "2026-07-05",
+    "examType": "Midterm",
+    "courseCode": "MATH301",
+    "courseName": "Probability and Statistics",
+    "courseNameAr": "الاحتمالات والإحصاء",
+    "startTime": "10:00:00",
+    "endTime": "12:00:00",
+    "location": "Science Building - Room 101"
+  },
+  {
+    "examScheduleId": 14,
+    "date": "2026-07-07",
+    "examType": "Midterm",
+    "courseCode": "CS401",
+    "courseName": "Software Engineering",
+    "courseNameAr": "هندسة البرمجيات",
+    "startTime": "14:00:00",
+    "endTime": "16:00:00",
+    "location": "Engineering Hall - Room 50"
+  },
+  {
+    "examScheduleId": 15,
+    "date": "2026-07-10",
+    "examType": "Midterm",
+    "courseCode": "CS101",
+    "courseName": "Introduction to Programming",
+    "courseNameAr": "مقدمة في البرمجة",
+    "startTime": "09:00:00",
+    "endTime": "11:00:00",
+    "location": "Hall A - Room 101"
+  },
+  {
+    "examScheduleId": 16,
+    "date": "2026-07-25",
+    "examType": "Final",
+    "courseCode": "CS102",
+    "courseName": "Data Structures",
+    "courseNameAr": "هياكل البيانات",
+    "startTime": "09:00:00",
+    "endTime": "12:00:00",
+    "location": "CS Lab - Room 401"
+  },
+  {
+    "examScheduleId": 17,
+    "date": "2026-07-28",
+    "examType": "Final",
+    "courseCode": "CS201",
+    "courseName": "Algorithms",
+    "courseNameAr": "الخوارزميات",
+    "startTime": "14:00:00",
+    "endTime": "17:00:00",
+    "location": "CS Lab - Room 402"
+  },
+  {
+    "examScheduleId": 18,
+    "date": "2026-08-05",
+    "examType": "Final",
+    "courseCode": "CS301",
+    "courseName": "Database Systems",
+    "courseNameAr": "نظم قواعد البيانات",
+    "startTime": "09:00:00",
+    "endTime": "12:00:00",
+    "location": "CS Lab - Room 403"
+  },
+  {
+    "examScheduleId": 19,
+    "date": "2026-08-08",
+    "examType": "Final",
+    "courseCode": "CS202",
+    "courseName": "Object-Oriented Programming",
+    "courseNameAr": "البرمجة كائنية التوجه",
+    "startTime": "13:00:00",
+    "endTime": "16:00:00",
+    "location": "Hall B - Room 201"
+  },
+  {
+    "examScheduleId": 20,
+    "date": "2026-08-20",
+    "examType": "Final",
+    "courseCode": "MATH301",
+    "courseName": "Probability and Statistics",
+    "courseNameAr": "الاحتمالات والإحصاء",
+    "startTime": "10:00:00",
+    "endTime": "13:00:00",
+    "location": "Science Building - Room 101"
+  }
+]

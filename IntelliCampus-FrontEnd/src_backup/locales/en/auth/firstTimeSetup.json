@@ -1,0 +1,18 @@
+{
+  "firstTimeSetup.step1Title": "First-Time Setup",
+  "firstTimeSetup.step2Title": "Verify & Set Password",
+  "firstTimeSetup.step1Subtitle": "Set up a recovery email to start",
+  "firstTimeSetup.step2Subtitle": "Enter the code sent to your email and set a new password",
+  "firstTimeSetup.recoveryEmailLabel": "Recovery Email",
+  "firstTimeSetup.recoveryEmailPlaceholder": "your@personal-email.com",
+  "firstTimeSetup.sendCode": "Send Verification Code",
+  "firstTimeSetup.codeLabel": "Verification Code",
+  "firstTimeSetup.codePlaceholder": "6-digit code",
+  "firstTimeSetup.newPasswordLabel": "New Password",
+  "firstTimeSetup.newPasswordPlaceholder": "At least 6 characters",
+  "firstTimeSetup.confirmLabel": "Confirm Password",
+  "firstTimeSetup.confirmPlaceholder": "Re-enter new password",
+  "firstTimeSetup.completeSetup": "Complete Setup",
+  "firstTimeSetup.toastCodeSent": "Check your email for the verification code.",
+  "firstTimeSetup.toastDone": "Your account is ready. Redirecting..."
+}

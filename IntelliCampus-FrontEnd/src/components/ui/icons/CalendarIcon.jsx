@@ -1,0 +1,13 @@
+const CalendarIcon = ({ size, ...props }) => (
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    viewBox="0 0 640 640" 
+    fill="currentColor" 
+    width={size} 
+    height={size} 
+    {...props}
+  >
+    <path d="M224 64c-17.7 0-32 14.3-32 32v32h-32c-35.3 0-64 28.7-64 64v48h448v-48c0-35.3-28.7-64-64-64h-32V96c0-17.7-14.3-32-32-32s-32 14.3-32 32v32H256V96c0-17.7-14.3-32-32-32M96 288v192c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64V288z" />
+  </svg>
+);
+export default CalendarIcon;

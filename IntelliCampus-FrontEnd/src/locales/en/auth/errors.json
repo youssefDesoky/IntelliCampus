@@ -1,0 +1,17 @@
+{
+  "errorPage.500.title": "Something went wrong",
+  "errorPage.500.badge": "500 Error",
+  "errorPage.500.heading": "Internal server error.",
+  "errorPage.500.description": "The server encountered an unexpected condition that prevented it from fulfilling your request. Please try again later or contact support if the problem persists.",
+  "errorPage.500.goToDashboard": "Go to dashboard",
+  "errorPage.500.backToLogin": "Back to login",
+  "errorPage.404.title": "Resource not found",
+  "errorPage.404.badge": "404 Not Found",
+  "errorPage.404.heading": "The page or resource you are looking for could not be found.",
+  "errorPage.404.description": "It may have been removed, renamed, or is temporarily unavailable. Please check the URL and try again, or return to your dashboard.",
+  "errorPage.401.title": "Access restricted",
+  "errorPage.401.badge": "Unauthorized",
+  "errorPage.401.heading": "You do not have permission to view this page.",
+  "errorPage.401.description": "The account you are using cannot access this area. If you believe this is a mistake, return to your dashboard or sign in again with the correct account.",
+  "errorPage.logoAlt": "IntelliCampus logo"
+}

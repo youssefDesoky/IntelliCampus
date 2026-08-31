@@ -1,0 +1,13 @@
+const InfoIcon = ({ size, ...props }) => (
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    viewBox="0 0 640 640" 
+    fill="currentColor" 
+    width={size} 
+    height={size} 
+    {...props}
+  >
+    <path d="M272 112c0-26.5 21.5-48 48-48s48 21.5 48 48-21.5 48-48 48-48-21.5-48-48m-48 144c0-17.7 14.3-32 32-32h64c17.7 0 32 14.3 32 32v256h32c17.7 0 32 14.3 32 32s-14.3 32-32 32H256c-17.7 0-32-14.3-32-32s14.3-32 32-32h32V288h-32c-17.7 0-32-14.3-32-32" />
+  </svg>
+);
+export default InfoIcon;

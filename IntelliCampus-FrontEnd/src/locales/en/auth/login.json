@@ -1,0 +1,12 @@
+{
+  "login.title": "Welcome Back",
+  "login.subtitle": "Sign in to access your academic dashboard",
+  "login.emailLabel": "Email",
+  "login.emailPlaceholder": "student@university.edu",
+  "login.passwordLabel": "Password",
+  "login.passwordPlaceholder": "Enter your password",
+  "login.submit": "Login",
+  "login.forgotPassword": "Forgot password?",
+  "login.getCredentials": "Get Credentials",
+  "login.adminNote": "Accounts are created by administration"
+}

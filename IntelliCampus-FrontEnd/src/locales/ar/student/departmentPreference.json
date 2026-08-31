@@ -1,0 +1,50 @@
+﻿{
+  "departmentPreference.title": "تفضيل القسم",
+  "departmentPreference.subtitle": "رتب وأعد تفضيلاتك للأقسام",
+
+  "departmentPreference.eligibility.eligible": "أنت مؤهل لتقديم تفضيلاتك",
+  "departmentPreference.eligibility.notEligible": "غير مؤهل بعد",
+  "departmentPreference.eligibility.metRequirement": "لقد استوفيت متطلبات الساعات الائتمانية — رتب أقسامك أدناه.",
+  "departmentPreference.eligibility.needMoreHours_zero": "ستحتاج إلى {{remaining}} ساعات ائتمانية إضافية قبل أن تتمكن من التقديم.",
+  "departmentPreference.eligibility.needMoreHours_one": "ستحتاج إلى {{remaining}} ساعة ائتمانية إضافية قبل أن تتمكن من التقديم.",
+  "departmentPreference.eligibility.needMoreHours_two": "ستحتاج إلى {{remaining}} ساعتين ائتمانيتين إضافيتين قبل أن تتمكن من التقديم.",
+  "departmentPreference.eligibility.needMoreHours_few": "ستحتاج إلى {{remaining}} ساعات ائتمانية إضافية قبل أن تتمكن من التقديم.",
+  "departmentPreference.eligibility.needMoreHours_many": "ستحتاج إلى {{remaining}} ساعة ائتمانية إضافية قبل أن تتمكن من التقديم.",
+  "departmentPreference.eligibility.needMoreHours_other": "ستحتاج إلى {{remaining}} ساعة ائتمانية إضافية قبل أن تتمكن من التقديم.",
+  "departmentPreference.eligibility.hrsCompleted": "{{hours}} ساعة مكتملة",
+  "departmentPreference.eligibility.hrsRequired": "{{hours}} ساعة مطلوبة",
+
+  "departmentPreference.saveSuccess.title": "تم حفظ التفضيلات بنجاح!",
+  "departmentPreference.saveSuccess.description": "تم تقديم تفضيلاتك المرتبة.",
+
+  "departmentPreference.clearAll": "مسح الكل",
+
+  "departmentPreference.status.noPreferences": "لا توجد تفضيلات بعد",
+  "departmentPreference.status.preferencesRanked_zero": "0 تفضيل مرتب",
+  "departmentPreference.status.preferencesRanked_one": "تفضيل واحد مرتب",
+  "departmentPreference.status.preferencesRanked_two": "تفضيلان مرتبان",
+  "departmentPreference.status.preferencesRanked_few": "{{count}} تفضيلات مرتبة",
+  "departmentPreference.status.preferencesRanked_many": "{{count}} تفضيلًا مرتبًا",
+  "departmentPreference.status.preferencesRanked_other": "{{count}} تفضيل مرتب",
+  "departmentPreference.status.addToSave": "أضف قسمًا واحدًا على الأقل للحفظ.",
+  "departmentPreference.status.dragToReorder": "اسحب لإعادة الترتيب أو استخدم أزرار الأسهم.",
+
+  "departmentPreference.saveButton": "حفظ التفضيلات",
+
+  "departmentPreference.available": "الأقسام المتاحة",
+
+  "departmentPreference.search": "البحث في الأقسام...",
+
+  "departmentPreference.empty.noMatches": "لا توجد نتائج لـ \"{{query}}\"",
+  "departmentPreference.empty.allAdded": "تمت إضافة جميع الأقسام إلى ترتيبك",
+  "departmentPreference.empty.tryDifferentSearch": "جرب مصطلح بحث مختلف.",
+  "departmentPreference.empty.addMoreItems": "أضف المزيد من العناصر من اللوحة اليسرى.",
+
+  "departmentPreference.ranking.title": "ترتيبك",
+  "departmentPreference.ranking.empty.title": "لا توجد تفضيلات مرتبة بعد",
+  "departmentPreference.ranking.empty.description": "أضف أقسامًا من اللوحة اليسرى لبدء الترتيب.",
+
+  "departmentPreference.actions.moveUp": "نقل لأعلى",
+  "departmentPreference.actions.moveDown": "نقل لأسفل",
+  "departmentPreference.actions.remove": "إزالة"
+}

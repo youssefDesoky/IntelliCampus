@@ -1,0 +1,22 @@
+{
+  "firstTimeSetup.title": "First-Time Setup",
+  "firstTimeSetup.subtitle": "Set up a recovery email to start",
+  "firstTimeSetup.step2Title": "Verify & Set Password",
+  "firstTimeSetup.step2Subtitle": "Enter the code sent to your email and set a new password",
+  "firstTimeSetup.emailLabel": "Recovery Email",
+  "firstTimeSetup.emailPlaceholder": "your@personal-email.com",
+  "firstTimeSetup.sendCode": "Send Verification Code",
+  "firstTimeSetup.verificationCodeLabel": "Verification Code",
+  "firstTimeSetup.verificationCodePlaceholder": "6-digit code",
+  "firstTimeSetup.newPasswordLabel": "New Password",
+  "firstTimeSetup.newPasswordPlaceholder": "At least 6 characters",
+  "firstTimeSetup.confirmLabel": "Confirm Password",
+  "firstTimeSetup.confirmPlaceholder": "Re-enter new password",
+  "firstTimeSetup.completeSetup": "Complete Setup",
+  "firstTimeSetup.codeSentTitle": "Code Sent",
+  "firstTimeSetup.codeSentMessage": "Check your email for the verification code.",
+  "firstTimeSetup.sendCodeFailed": "Failed to send code. Please try again.",
+  "firstTimeSetup.doneTitle": "Setup Complete",
+  "firstTimeSetup.doneMessage": "Your account is ready. Redirecting...",
+  "firstTimeSetup.setupFailed": "Setup failed. Please try again."
+}

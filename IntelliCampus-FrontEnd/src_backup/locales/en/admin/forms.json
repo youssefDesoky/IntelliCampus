@@ -1,0 +1,17 @@
+{
+  "form.register": "Register",
+  "form.unregister": "Unregister",
+  "form.publish": "Publish",
+  "form.chooseFile": "Choose File",
+  "form.addAnotherFile": "Add Another File",
+  "form.download": "Download",
+  "form.clickToPreview": "Click to preview",
+  "form.yesDelete": "Yes, Delete",
+  "form.noKeep": "No, Keep",
+  "form.browseFiles": "browse files",
+  "form.removeFile": "Remove file",
+  "form.ready": "Ready",
+  "form.confirmDelete": "Are you sure you want to delete this {{entity}}? This action cannot be undone.",
+  "form.confirmBulkDelete": "Are you sure you want to delete {{count}} selected {{entity}}? This action cannot be undone.",
+  "form.confirmBulkDelete_plural": "Are you sure you want to delete {{count}} selected {{entity}}? This action cannot be undone."
+}

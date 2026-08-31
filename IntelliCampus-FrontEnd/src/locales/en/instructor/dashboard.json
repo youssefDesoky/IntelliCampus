@@ -1,0 +1,21 @@
+{
+  "dashboard.title": "Dashboard",
+  "dashboard.activeCourses": "Active Courses",
+  "dashboard.totalStudents": "Total Students",
+  "dashboard.averageAttendance": "Average Attendance",
+  "dashboard.latestNews": "Latest News",
+  "dashboard.noNews": "No news available",
+  "dashboard.todayReminders": "Today's Reminders",
+  "dashboard.loadingReminders": "Loading reminders...",
+  "dashboard.noReminders": "No reminders for today",
+  "dashboard.finished": "Finished",
+  "dashboard.posted": "Posted",
+  "dashboard.editedTime": "Edited {{time}}",
+  "dashboard.postedTime": "Posted {{time}}",
+  "dashboard.postedRecently": "Posted recently",
+  "dashboard.editedTime": "Edited {{time}}",
+  "dashboard.postedTime": "Posted {{time}}",
+  "dashboard.viewAllReminders": "View All Reminders",
+  "dashboard.analytics": "Analytics",
+  "dashboard.error": "Failed to load dashboard. Please try again later."
+}

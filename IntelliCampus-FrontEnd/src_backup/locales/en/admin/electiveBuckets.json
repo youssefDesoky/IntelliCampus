@@ -1,0 +1,9 @@
+{
+  "courseRegistration.title": "Course Registration Settings",
+  "courseRegistration.addBucket": "Create Bucket",
+  "courseRegistration.editBucket": "Edit Bucket",
+  "courseRegistration.electiveBucket": "Elective Course Bucket",
+  "courseRegistration.bucketName": "Bucket Name",
+  "courseRegistration.bucketNameAr": "Bucket Name (Arabic)",
+  "courseRegistration.selectCourses": "Select Courses"
+}

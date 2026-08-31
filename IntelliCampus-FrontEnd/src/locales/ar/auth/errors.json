@@ -1,0 +1,17 @@
+{
+  "errorPage.500.title": "حدث خطأ ما",
+  "errorPage.500.badge": "خطأ 500",
+  "errorPage.500.heading": "خطأ داخلي في الخادم.",
+  "errorPage.500.description": "واجه الخادم خطأ غير متوقع. يرجى المحاولة لاحقاً أو الاتصال بالدعم.",
+  "errorPage.500.goToDashboard": "الذهاب إلى لوحة التحكم",
+  "errorPage.500.backToLogin": "العودة إلى تسجيل الدخول",
+  "errorPage.404.title": "المورد غير موجود",
+  "errorPage.404.badge": "404 غير موجود",
+  "errorPage.404.heading": "الصفحة أو المورد الذي تبحث عنه غير موجود.",
+  "errorPage.404.description": "ربما تمت إزالته أو إعادة تسميته. تحقق من الرابط وحاول مرة أخرى.",
+  "errorPage.401.title": "وصول مقيد",
+  "errorPage.401.badge": "غير مصرح",
+  "errorPage.401.heading": "ليس لديك صلاحية لعرض هذه الصفحة.",
+  "errorPage.401.description": "لا يمكن لحسابك الوصول إلى هذه المنطقة. إذا كنت تعتقد أن هناك خطأ، فعد إلى لوحة التحكم.",
+  "errorPage.logoAlt": "شعار IntelliCampus"
+}

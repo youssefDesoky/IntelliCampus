@@ -1,0 +1,22 @@
+{
+  "firstTimeSetup.title": "الإعداد الأولي",
+  "firstTimeSetup.subtitle": "قم بإعداد بريد استردادي للبدء",
+  "firstTimeSetup.step2Title": "التحقق وتعيين كلمة المرور",
+  "firstTimeSetup.step2Subtitle": "أدخل الرمز المرسل إلى بريدك وحدد كلمة مرور جديدة",
+  "firstTimeSetup.emailLabel": "البريد الاستردادي",
+  "firstTimeSetup.emailPlaceholder": "your@personal-email.com",
+  "firstTimeSetup.sendCode": "إرسال رمز التحقق",
+  "firstTimeSetup.verificationCodeLabel": "رمز التحقق",
+  "firstTimeSetup.verificationCodePlaceholder": "رمز من 6 أرقام",
+  "firstTimeSetup.newPasswordLabel": "كلمة المرور الجديدة",
+  "firstTimeSetup.newPasswordPlaceholder": "6 أحرف على الأقل",
+  "firstTimeSetup.confirmLabel": "تأكيد كلمة المرور",
+  "firstTimeSetup.confirmPlaceholder": "أعد إدخال كلمة المرور الجديدة",
+  "firstTimeSetup.completeSetup": "إكمال الإعداد",
+  "firstTimeSetup.codeSentTitle": "تم إرسال الرمز",
+  "firstTimeSetup.codeSentMessage": "تحقق من بريدك الإلكتروني للحصول على رمز التحقق.",
+  "firstTimeSetup.sendCodeFailed": "فشل إرسال الرمز. يرجى المحاولة مرة أخرى.",
+  "firstTimeSetup.doneTitle": "اكتمل الإعداد",
+  "firstTimeSetup.doneMessage": "حسابك جاهز. جارٍ إعادة التوجيه...",
+  "firstTimeSetup.setupFailed": "فشل الإعداد. يرجى المحاولة مرة أخرى."
+}

@@ -1,0 +1,11 @@
+export { default as GradeDistributionHistogram } from "./GradeDistributionHistogram";
+export { default as PerformanceOverTimeChart } from "./PerformanceOverTimeChart";
+export { default as AttendanceVsGradeChart } from "./AttendanceVsGradeChart";
+export { default as AssignmentCompletionRateChart } from "./AssignmentCompletionRateChart";
+export { default as ClassAverageByTopicChart } from "./ClassAverageByTopicChart";
+export { default as StudentScoreHeatmap } from "./StudentScoreHeatmap";
+export { default as BoxPlotChart } from "./BoxPlotChart";
+export { default as CompetencyRadarChart } from "./CompetencyRadarChart";
+export { default as CumulativePassRateChart } from "./CumulativePassRateChart";
+export { default as SectionComparisonChart } from "./SectionComparisonChart";
+export { default as CourseWorkBreakdownChart } from "./CourseWorkBreakdownChart";

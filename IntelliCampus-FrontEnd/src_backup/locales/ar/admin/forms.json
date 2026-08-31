@@ -1,0 +1,21 @@
+{
+  "form.register": "تسجيل",
+  "form.unregister": "إلغاء التسجيل",
+  "form.publish": "نشر",
+  "form.chooseFile": "اختيار ملف",
+  "form.addAnotherFile": "إضافة ملف آخر",
+  "form.download": "تحميل",
+  "form.clickToPreview": "اضغط للمعاينة",
+  "form.yesDelete": "نعم، احذف",
+  "form.noKeep": "لا، إبقاء",
+  "form.browseFiles": "تصفح الملفات",
+  "form.removeFile": "إزالة الملف",
+  "form.ready": "جاهز",
+  "form.confirmDelete": "هل أنت متأكد من حذف {{entity}}؟ لا يمكن التراجع عن هذا الإجراء.",
+  "form.confirmBulkDelete_zero": "هل أنت متأكد من حذف {{count}} {{entity}} المحددة؟ لا يمكن التراجع عن هذا الإجراء.",
+  "form.confirmBulkDelete_one": "هل أنت متأكد من حذف {{count}} {{entity}} المحدد؟ لا يمكن التراجع عن هذا الإجراء.",
+  "form.confirmBulkDelete_two": "هل أنت متأكد من حذف {{count}} {{entity}} المحددين؟ لا يمكن التراجع عن هذا الإجراء.",
+  "form.confirmBulkDelete_few": "هل أنت متأكد من حذف {{count}} {{entity}} المحددة؟ لا يمكن التراجع عن هذا الإجراء.",
+  "form.confirmBulkDelete_many": "هل أنت متأكد من حذف {{count}} {{entity}} المحددة؟ لا يمكن التراجع عن هذا الإجراء.",
+  "form.confirmBulkDelete_other": "هل أنت متأكد من حذف {{count}} {{entity}} المحددة؟ لا يمكن التراجع عن هذا الإجراء."
+}

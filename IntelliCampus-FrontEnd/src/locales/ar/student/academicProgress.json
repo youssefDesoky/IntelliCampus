@@ -1,0 +1,15 @@
+{
+  "academicProgress.title": "التقدم الأكاديمي",
+  "academicProgress.gpa": "المعدل التراكمي",
+  "academicProgress.completedHours": "الساعات المكتملة",
+  "academicProgress.remainingHours": "الساعات المتبقية",
+  "academicProgress.level": "المستوى",
+  "academicProgress.semester": "الفصل الدراسي",
+  "academicProgress.subtitle": "تتبع إكمال درجتك حسب فئة المتطلبات",
+  "academicProgress.completed": "المكتمل: {{completed}} / {{total}} ساعة",
+  "academicProgress.progress": "التقدم",
+  "academicProgress.hrs": "ساعة",
+  "academicProgress.noCourses": "لا توجد مقررات في هذه الفئة بعد",
+  "academicProgress.noData": "لا توجد بيانات تقدم متاحة",
+  "academicProgress.noDataDesc": "تعذر تحميل معلومات تقدمك الأكاديمي."
+}

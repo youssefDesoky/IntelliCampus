@@ -1,0 +1,14 @@
+{
+    "dashboard": "Dashboard",
+    "inbox": "Inbox",
+    "reminders": "Reminders",
+    "courses": "Courses",
+    "allCourses": "My Courses",
+    "courseRegistration": "Registration",
+    "coursePrerequisites": "Prerequisites",
+    "community": "Community",
+    "smartNotes": "Smart Notes",
+    "schedule" : "Schedule",
+    "specializationPreference": "Specialization Preference",
+    "academicProgress": "Academic Progress"
+}

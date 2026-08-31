@@ -1,0 +1,239 @@
+{
+  "CS101": [
+    {
+      "id": 101,
+      "title": "Week 1 - Variables and Data Types",
+      "description": "Write a program that demonstrates the use of variables, constants, and primitive data types in Java. Include at least one example of each primitive type.",
+      "dueDate": "2026-07-05T23:59:00Z",
+      "status": "pending",
+      "totalPoints": 20,
+      "attachments": [
+        { "id": 1, "name": "assignment_instructions.pdf", "size": "245 KB", "url": "/uploads/assignments/CS101/wk1_instructions.pdf" }
+      ]
+    },
+    {
+      "id": 102,
+      "title": "Week 2 - Control Flow Statements",
+      "description": "Implement a program that uses if-else, switch, and loops to solve a problem of your choice. Ensure all control flow structures are used appropriately.",
+      "dueDate": "2026-07-12T23:59:00Z",
+      "status": "pending",
+      "totalPoints": 25,
+      "attachments": [
+        { "id": 2, "name": "control_flow_examples.pdf", "size": "312 KB", "url": "/uploads/assignments/CS101/wk2_instructions.pdf" },
+        { "id": 3, "name": "rubric.pdf", "size": "120 KB", "url": "/uploads/assignments/CS101/wk2_rubric.pdf" }
+      ]
+    },
+    {
+      "id": 103,
+      "title": "Week 3 - Functions and Methods",
+      "description": "Create a library of utility functions covering mathematical operations, string manipulation, and array processing.",
+      "dueDate": "2026-06-28T23:59:00Z",
+      "status": "submitted",
+      "totalPoints": 30,
+      "submission": {
+        "submittedAt": "2026-06-27T14:30:00Z",
+        "note": "I have completed all the required functions. Please check my array sorting implementation.",
+        "files": [
+          { "id": 10, "name": "utility_functions.zip", "size": "45 KB", "url": "/uploads/submissions/CS101/wk3_submission.zip" }
+        ]
+      }
+    },
+    {
+      "id": 104,
+      "title": "Week 4 - Arrays and ArrayLists",
+      "description": "Develop a student grade management system that uses arrays and ArrayLists to store, sort, and analyze student grades.",
+      "dueDate": "2026-06-14T23:59:00Z",
+      "status": "graded",
+      "totalPoints": 35,
+      "score": 28,
+      "submission": {
+        "submittedAt": "2026-06-12T10:15:00Z",
+        "files": [
+          { "id": 11, "name": "GradeManager.java", "size": "8 KB", "url": "/uploads/submissions/CS101/wk4_submission.java" }
+        ]
+      },
+      "grade": {
+        "score": 28,
+        "feedback": "Good work! Your sorting algorithm is efficient. Deducted points for missing edge case handling in empty array scenario.",
+        "gradedBy": "Dr. Ahmed",
+        "gradedAt": "2026-06-20T09:00:00Z"
+      }
+    },
+    {
+      "id": 105,
+      "title": "Midterm Project - Simple Banking App",
+      "description": "Design and implement a simple banking application that supports account creation, deposits, withdrawals, and transaction history using OOP principles.",
+      "dueDate": "2026-06-01T23:59:00Z",
+      "status": "graded",
+      "totalPoints": 100,
+      "score": 88,
+      "submission": {
+        "submittedAt": "2026-05-30T22:45:00Z",
+        "files": [
+          { "id": 12, "name": "banking_app.zip", "size": "156 KB", "url": "/uploads/submissions/CS101/midterm_project.zip" },
+          { "id": 13, "name": "report.pdf", "size": "890 KB", "url": "/uploads/submissions/CS101/midterm_report.pdf" }
+        ]
+      },
+      "grade": {
+        "score": 88,
+        "feedback": "Excellent project! The code is well-structured and documented. Some room for improvement in exception handling. Overall very solid work.",
+        "gradedBy": "Dr. Ahmed",
+        "gradedAt": "2026-06-08T14:00:00Z"
+      }
+    }
+  ],
+  "MATH201": [
+    {
+      "id": 201,
+      "title": "Problem Set 1 - Matrix Operations",
+      "description": "Solve the attached set of problems on matrix addition, multiplication, determinants, and inverses. Show all steps clearly.",
+      "dueDate": "2026-07-08T23:59:00Z",
+      "status": "pending",
+      "totalPoints": 40,
+      "attachments": [
+        { "id": 4, "name": "problem_set_1.pdf", "size": "420 KB", "url": "/uploads/assignments/MATH201/ps1.pdf" }
+      ]
+    },
+    {
+      "id": 202,
+      "title": "Problem Set 2 - Vector Spaces",
+      "description": "Complete problems on vector spaces, subspaces, linear independence, and basis. Submit handwritten or typed solutions.",
+      "dueDate": "2026-07-22T23:59:00Z",
+      "status": "pending",
+      "totalPoints": 50,
+      "attachments": [
+        { "id": 5, "name": "problem_set_2.pdf", "size": "380 KB", "url": "/uploads/assignments/MATH201/ps2.pdf" }
+      ]
+    },
+    {
+      "id": 203,
+      "title": "Problem Set 3 - Eigenvalues",
+      "description": "Solve eigenvalue and eigenvector problems. Include applications to diagonalization and matrix powers.",
+      "dueDate": "2026-06-20T23:59:00Z",
+      "status": "submitted",
+      "totalPoints": 45,
+      "submission": {
+        "submittedAt": "2026-06-19T16:00:00Z",
+        "files": [
+          { "id": 14, "name": "eigenvalues_solutions.pdf", "size": "1.2 MB", "url": "/uploads/submissions/MATH201/ps3.pdf" }
+        ]
+      }
+    },
+    {
+      "id": 204,
+      "title": "Problem Set 4 - Linear Transformations",
+      "description": "Model real-world scenarios using linear transformations. Submit both theoretical derivations and computational implementations.",
+      "dueDate": "2026-06-05T23:59:00Z",
+      "status": "graded",
+      "totalPoints": 55,
+      "score": 48,
+      "submission": {
+        "submittedAt": "2026-06-04T20:30:00Z",
+        "files": [
+          { "id": 15, "name": "linear_transformations.pdf", "size": "980 KB", "url": "/uploads/submissions/MATH201/ps4.pdf" }
+        ]
+      },
+      "grade": {
+        "score": 48,
+        "feedback": "Very good understanding of concepts. Lost a few points on the computational part due to minor errors in matrix multiplication.",
+        "gradedBy": "Prof. Hassan",
+        "gradedAt": "2026-06-12T11:00:00Z"
+      }
+    }
+  ],
+  "PHYS101": [
+    {
+      "id": 301,
+      "title": "Lab Report 1 - Kinematics",
+      "description": "Write a full lab report on the kinematics experiment. Include raw data, analysis, graphs, and conclusion.",
+      "dueDate": "2026-07-10T23:59:00Z",
+      "status": "pending",
+      "totalPoints": 30,
+      "attachments": [
+        { "id": 6, "name": "lab_1_template.docx", "size": "560 KB", "url": "/uploads/assignments/PHYS101/lab1_template.docx" }
+      ]
+    },
+    {
+      "id": 302,
+      "title": "Problem Set - Newton's Laws",
+      "description": "Solve 10 problems on Newton's laws of motion. Include free-body diagrams for each problem.",
+      "dueDate": "2026-07-03T23:59:00Z",
+      "status": "pending",
+      "totalPoints": 25,
+      "attachments": [
+        { "id": 7, "name": "newton_problems.pdf", "size": "290 KB", "url": "/uploads/assignments/PHYS101/newton_ps.pdf" }
+      ]
+    },
+    {
+      "id": 303,
+      "title": "Lab Report 2 - Energy Conservation",
+      "description": "Write a comprehensive lab report on the conservation of mechanical energy experiment with detailed error analysis.",
+      "dueDate": "2026-06-15T23:59:00Z",
+      "status": "graded",
+      "totalPoints": 35,
+      "score": 32,
+      "submission": {
+        "submittedAt": "2026-06-14T18:00:00Z",
+        "files": [
+          { "id": 16, "name": "energy_lab_report.pdf", "size": "1.5 MB", "url": "/uploads/submissions/PHYS101/energy_lab.pdf" },
+          { "id": 17, "name": "data_sheet.xlsx", "size": "340 KB", "url": "/uploads/submissions/PHYS101/energy_data.xlsx" }
+        ]
+      },
+      "grade": {
+        "score": 32,
+        "feedback": "Excellent lab report! Great data analysis and error propagation. Minor formatting issues in the graphs section.",
+        "gradedBy": "Dr. Fatima",
+        "gradedAt": "2026-06-22T10:30:00Z"
+      }
+    }
+  ],
+  "ENG101": [
+    {
+      "id": 401,
+      "title": "Essay 1 - Argumentative Writing",
+      "description": "Write a 1000-word argumentative essay on a topic of your choice. Must include a clear thesis, supporting evidence, and counterargument.",
+      "dueDate": "2026-07-15T23:59:00Z",
+      "status": "pending",
+      "totalPoints": 50,
+      "attachments": [
+        { "id": 8, "name": "essay_guidelines.pdf", "size": "180 KB", "url": "/uploads/assignments/ENG101/essay_guidelines.pdf" }
+      ]
+    },
+    {
+      "id": 402,
+      "title": "Research Paper Outline",
+      "description": "Submit a detailed outline for your final research paper including thesis statement, main arguments, and preliminary bibliography.",
+      "dueDate": "2026-06-30T23:59:00Z",
+      "status": "submitted",
+      "totalPoints": 20,
+      "submission": {
+        "submittedAt": "2026-06-29T11:20:00Z",
+        "note": "Please let me know if the scope is appropriate before I proceed with the full paper.",
+        "files": [
+          { "id": 18, "name": "research_outline.docx", "size": "65 KB", "url": "/uploads/submissions/ENG101/outline.docx" }
+        ]
+      }
+    },
+    {
+      "id": 403,
+      "title": "Final Research Paper",
+      "description": "Submit your final 3000-word research paper with proper citations in MLA format.",
+      "dueDate": "2026-06-10T23:59:00Z",
+      "status": "graded",
+      "totalPoints": 100,
+      "score": 85,
+      "submission": {
+        "submittedAt": "2026-06-09T23:30:00Z",
+        "files": [
+          { "id": 19, "name": "research_paper_final.pdf", "size": "2.1 MB", "url": "/uploads/submissions/ENG101/final_paper.pdf" }
+        ]
+      },
+      "grade": {
+        "score": 85,
+        "feedback": "Well-researched paper with strong arguments. The conclusion could be more developed. Some citations need formatting corrections.",
+        "gradedBy": "Dr. Sarah",
+        "gradedAt": "2026-06-18T15:00:00Z"
+      }
+    }
+  ]
+}

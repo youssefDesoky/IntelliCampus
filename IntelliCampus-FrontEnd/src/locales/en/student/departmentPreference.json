@@ -1,0 +1,43 @@
+{
+  "departmentPreference.title": "Department Preference",
+  "departmentPreference.subtitle": "Rank and order your preferred departments",
+
+  "departmentPreference.eligibility.eligible": "You're eligible to submit your preferences",
+  "departmentPreference.eligibility.notEligible": "Not eligible yet",
+  "departmentPreference.eligibility.metRequirement": "You've met the credit hour requirement — rank your departments below.",
+  "departmentPreference.eligibility.needMoreHours_one": "You'll need {{remaining}} more credit hour before you can submit.",
+  "departmentPreference.eligibility.needMoreHours_other": "You'll need {{remaining}} more credit hours before you can submit.",
+  "departmentPreference.eligibility.hrsCompleted": "{{hours}} hrs completed",
+  "departmentPreference.eligibility.hrsRequired": "{{hours}} hrs required",
+
+  "departmentPreference.saveSuccess.title": "Preferences saved successfully!",
+  "departmentPreference.saveSuccess.description": "Your ranked preferences have been submitted.",
+
+  "departmentPreference.clearAll": "Clear all",
+
+  "departmentPreference.status.noPreferences": "No preferences yet",
+  "departmentPreference.status.preferencesRanked_zero": "0 preferences ranked",
+  "departmentPreference.status.preferencesRanked_one": "{{count}} preference ranked",
+  "departmentPreference.status.preferencesRanked_other": "{{count}} preferences ranked",
+  "departmentPreference.status.addToSave": "Add at least one department to save.",
+  "departmentPreference.status.dragToReorder": "Drag to reorder or use the arrow buttons.",
+
+  "departmentPreference.saveButton": "Save Preferences",
+
+  "departmentPreference.available": "Available Departments",
+
+  "departmentPreference.search": "Search departments...",
+
+  "departmentPreference.empty.noMatches": "No matches for \"{{query}}\"",
+  "departmentPreference.empty.allAdded": "All departments have been added to your ranking",
+  "departmentPreference.empty.tryDifferentSearch": "Try a different search term.",
+  "departmentPreference.empty.addMoreItems": "Add more items from the left panel.",
+
+  "departmentPreference.ranking.title": "Your Ranking",
+  "departmentPreference.ranking.empty.title": "No preferences ranked yet",
+  "departmentPreference.ranking.empty.description": "Add departments from the left panel to start ranking.",
+
+  "departmentPreference.actions.moveUp": "Move up",
+  "departmentPreference.actions.moveDown": "Move down",
+  "departmentPreference.actions.remove": "Remove"
+}

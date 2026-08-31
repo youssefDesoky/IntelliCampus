@@ -1,0 +1,12 @@
+{
+  "login.title": "مرحباً بعودتك",
+  "login.subtitle": "سجّل الدخول للوصول إلى لوحة التحكم الأكاديمية",
+  "login.emailLabel": "البريد الإلكتروني",
+  "login.emailPlaceholder": "student@university.edu",
+  "login.passwordLabel": "كلمة المرور",
+  "login.passwordPlaceholder": "أدخل كلمة المرور",
+  "login.submit": "تسجيل الدخول",
+  "login.forgotPassword": "نسيت كلمة المرور؟",
+  "login.getCredentials": "استرجاع البريد الإلكتروني",
+  "login.adminNote": "يتم إنشاء الحسابات بواسطة الإدارة"
+}

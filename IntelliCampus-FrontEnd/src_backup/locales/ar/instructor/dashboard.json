@@ -1,0 +1,17 @@
+{
+  "dashboard.title": "لوحة التحكم",
+  "dashboard.activeCourses": "المقررات النشطة",
+  "dashboard.totalStudents": "إجمالي الطلاب",
+  "dashboard.averageAttendance": "متوسط الحضور",
+  "dashboard.latestNews": "آخر الأخبار",
+  "dashboard.noNews": "لا توجد أخبار",
+  "dashboard.todayReminders": "تذكيرات اليوم",
+  "dashboard.loadingReminders": "جارٍ تحميل التذكيرات...",
+  "dashboard.noReminders": "لا توجد تذكيرات اليوم",
+  "dashboard.finished": "منتهي",
+  "dashboard.posted": "تم النشر",
+  "dashboard.postedRecently": "تم النشر مؤخراً",
+  "dashboard.viewAllReminders": "عرض كل التذكيرات",
+  "dashboard.analytics": "التحليلات",
+  "dashboard.error": "فشل تحميل لوحة التحكم. يرجى المحاولة لاحقاً."
+}

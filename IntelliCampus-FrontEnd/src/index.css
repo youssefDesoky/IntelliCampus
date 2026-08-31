@@ -1,0 +1,673 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@theme {
+  --color-bg-light: rgb(245 247 250);
+  --color-bg-dark: rgb(15 23 42);
+
+
+
+  --color-bg-surface-primary-default-light: rgb(255 255 255);
+  --color-bg-surface-primary-default-dark: rgb(2 6 23);
+  --color-bg-surface-secondary-default-light: rgb(238 242 246);
+  --color-bg-surface-secondary-default-dark: rgb(18 24 34);
+  --color-bg-surface-danger-default-light: rgb(254 202 202);
+  --color-bg-surface-danger-default-dark: rgb(153 27 27);
+  --color-bg-surface-success-default-light: rgb(187 247 208);
+  --color-bg-surface-success-default-dark: rgb(20 83 45);
+  --color-bg-surface-warning-default-light: rgb(254 240 138);
+  --color-bg-surface-warning-default-dark: rgb(161 98 7);
+  --color-bg-surface-info-default-light: rgb(186 230 253);
+  --color-bg-surface-info-default-dark: rgb(12 74 110);
+  --color-bg-surface-accent-default-light: rgb(74 144 226);
+  --color-bg-surface-accent-default-dark: rgb(74 144 226);
+
+  --color-bg-surface-primary-active-light: rgb(243 244 246);
+  --color-bg-surface-primary-active-dark: rgb(17 24 39);
+  --color-bg-surface-secondary-active-light: rgb(229 231 235);
+  --color-bg-surface-secondary-active-dark: rgb(26 34 48);
+  --color-bg-surface-danger-active-light: rgb(239 68 68);
+  --color-bg-surface-danger-active-dark: rgb(127 29 29);
+  --color-bg-surface-success-active-light: rgb(34 197 94);
+  --color-bg-surface-success-active-dark: rgb(21 128 61);
+  --color-bg-surface-warning-active-light: rgb(234 179 8);
+  --color-bg-surface-warning-active-dark: rgb(202 138 4);
+  --color-bg-surface-info-active-light: rgb(14 165 233);
+  --color-bg-surface-info-active-dark: rgb(3 105 161);
+  --color-bg-surface-accent-active-light: rgb(59 130 246);
+  --color-bg-surface-accent-active-dark: rgb(59 130 246);
+
+  --color-bg-surface-primary-hover-light: rgb(249 250 251);
+  --color-bg-surface-primary-hover-dark: rgb(15 23 42);
+  --color-bg-surface-secondary-hover-light: rgb(229 231 235);
+  --color-bg-surface-secondary-hover-dark: rgb(26 34 48);
+  --color-bg-surface-tertiary-hover-light: rgb(243 244 246);
+  --color-bg-surface-tertiary-hover-dark: rgb(75 85 99);
+  --color-bg-surface-danger-hover-light: rgb(252 165 165);
+  --color-bg-surface-danger-hover-dark: rgb(185 28 28);
+  --color-bg-surface-success-hover-light: rgb(134 239 172);
+  --color-bg-surface-success-hover-dark: rgb(22 101 52);
+  --color-bg-surface-warning-hover-light: rgb(253 224 71);
+  --color-bg-surface-warning-hover-dark: rgb(180 83 9);
+  --color-bg-surface-info-hover-light: rgb(125 211 252);
+  --color-bg-surface-info-hover-dark: rgb(7 89 133);
+  --color-bg-surface-accent-hover-light: rgb(74 144 226);
+  --color-bg-surface-accent-hover-dark: rgb(74 144 226);
+
+  --color-bg-surface-primary-disabled-light: rgb(249 250 251);
+  --color-bg-surface-primary-disabled-dark: rgb(17 24 39);
+  --color-bg-surface-secondary-disabled-light: rgb(243 244 246);
+  --color-bg-surface-secondary-disabled-dark: rgb(31 41 55);
+  --color-bg-surface-danger-disabled-light: rgb(254 226 226);
+  --color-bg-surface-danger-disabled-dark: rgb(69 10 10);
+  --color-bg-surface-success-disabled-light: rgb(220 252 231);
+  --color-bg-surface-success-disabled-dark: rgb(20 83 45);
+  --color-bg-surface-warning-disabled-light: rgb(254 249 195);
+  --color-bg-surface-warning-disabled-dark: rgb(113 63 18);
+  --color-bg-surface-info-disabled-light: rgb(224 242 254);
+  --color-bg-surface-info-disabled-dark: rgb(12 74 110);
+  --color-bg-surface-accent-disabled-light: rgb(191 219 254);
+  --color-bg-surface-accent-disabled-dark: rgb(30 64 175);
+
+
+
+  --color-bg-fill-primary-default-light: rgb(255 255 255);
+  --color-bg-fill-primary-default-dark: rgb(2 6 23);
+  --color-bg-fill-secondary-default-light: rgb(243 244 246);
+  --color-bg-fill-secondary-default-dark: rgb(18 24 34);
+  --color-bg-fill-accent-default-light: rgb(59 130 246);
+  --color-bg-fill-accent-default-dark: rgb(59 130 246);
+  --color-bg-fill-success-default-light: rgb(34 197 94);
+  --color-bg-fill-success-default-dark: rgb(34 197 94);
+  --color-bg-fill-warning-default-light: rgb(251 191 36);
+  --color-bg-fill-warning-default-dark: rgb(251 191 36);
+  --color-bg-fill-danger-default-light: rgb(220 38 38);
+  --color-bg-fill-danger-default-dark: rgb(220 38 38);
+  --color-bg-fill-info-default-light: rgb(96 165 250);
+  --color-bg-fill-info-default-dark: rgb(96 165 250);
+  --color-bg-fill-purple-default-light: rgb(192 132 252);
+  --color-bg-fill-purple-default-dark: rgb(192 132 252);
+
+  --color-bg-fill-primary-active-light: rgb(74 144 226);
+  --color-bg-fill-primary-active-dark: rgb(74 144 226);
+  --color-bg-fill-secondary-active-light: rgb(229 231 235);
+  --color-bg-fill-secondary-active-dark: rgb(15 23 42);
+  --color-bg-fill-tertiary-active-light: rgb(229 231 235);
+  --color-bg-fill-tertiary-active-dark: rgb(55 65 81);
+
+  --color-bg-fill-primary-disabled-light: rgb(229 231 235);
+  --color-bg-fill-primary-disabled-dark: rgb(55 65 81);
+  --color-bg-fill-secondary-disabled-light: rgb(243 244 246);
+  --color-bg-fill-secondary-disabled-dark: rgb(26 34 48);
+  --color-bg-fill-tertiary-disabled-light: rgb(249 250 251);
+  --color-bg-fill-tertiary-disabled-dark: rgb(17 24 39);
+
+  --color-bg-fill-primary-hover-light: rgb(229 231 235);
+  --color-bg-fill-primary-hover-dark: rgb(31 41 55);
+  --color-bg-fill-secondary-hover-light: rgb(229 231 235);
+  --color-bg-fill-secondary-hover-dark: rgb(26 34 48);
+  --color-bg-fill-accent-hover-light: rgb(37 99 235);
+  --color-bg-fill-accent-hover-dark: rgb(96 165 250);
+  --color-bg-fill-tertiary-hover-light: rgb(249 250 251);
+  --color-bg-fill-tertiary-hover-dark: rgb(55 65 81);
+
+
+
+  --color-text-primary-default-light: rgb(55 65 81);
+  --color-text-primary-default-dark: rgb(209 213 219);
+  --color-text-secondary-default-light: rgb(75 85 99);
+  --color-text-secondary-default-dark: rgb(156 163 175);
+  --color-text-tertiary-default-light: rgb(107 114 128);
+  --color-text-tertiary-default-dark: rgb(107 114 128);
+  --color-text-danger-default-light: rgb(220 38 38);
+  --color-text-danger-default-dark: rgb(248 113 113);
+  --color-text-success-default-light: rgb(21 128 61);
+  --color-text-success-default-dark: rgb(74 222 128);
+  --color-text-warning-default-light: rgb(180 83 9);
+  --color-text-warning-default-dark: rgb(250 204 21);
+  --color-text-info-default-light: rgb(3 105 161);
+  --color-text-info-default-dark: rgb(56 189 248);
+  --color-text-accent-default-light: rgb(59 130 246);
+  --color-text-accent-default-dark: rgb(96 165 250);
+
+  --color-text-primary-active-light: rgb(17 24 39);
+  --color-text-primary-active-dark: rgb(229 231 235);
+  --color-text-secondary-active-light: rgb(75 85 99);
+  --color-text-secondary-active-dark: rgb(156 163 175);
+  --color-text-tertiary-active-light: rgb(107 114 128);
+  --color-text-tertiary-active-dark: rgb(75 85 99);
+  --color-text-danger-active-light: rgb(220 38 38);
+  --color-text-danger-active-dark: rgb(220 38 38);
+  --color-text-success-active-light: rgb(21 128 61);
+  --color-text-success-active-dark: rgb(22 163 74);
+  --color-text-warning-active-light: rgb(202 138 4);
+  --color-text-warning-active-dark: rgb(217 119 6);
+  --color-text-info-active-light: rgb(3 105 161);
+  --color-text-info-active-dark: rgb(2 132 199);
+  --color-text-accent-active-light: rgb(255 255 255);
+  --color-text-accent-active-dark: rgb(255 255 255);
+
+  --color-text-primary-disabled-light: rgb(209 213 219);
+  --color-text-primary-disabled-dark: rgb(75 85 99);
+  --color-text-secondary-disabled-light: rgb(161 166 176);
+  --color-text-secondary-disabled-dark: rgb(107 114 128);
+  --color-text-tertiary-disabled-light: rgb(209 213 219);
+  --color-text-tertiary-disabled-dark: rgb(55 65 81);
+  --color-text-danger-disabled-light: rgb(252 165 165);
+  --color-text-danger-disabled-dark: rgb(127 29 29);
+  --color-text-success-disabled-light: rgb(187 247 208);
+  --color-text-success-disabled-dark: rgb(20 83 45);
+  --color-text-warning-disabled-light: rgb(253 224 71);
+  --color-text-warning-disabled-dark: rgb(113 63 18);
+  --color-text-info-disabled-light: rgb(186 230 253);
+  --color-text-info-disabled-dark: rgb(12 74 110);
+  --color-text-accent-disabled-light: rgb(147 197 253);
+  --color-text-accent-disabled-dark: rgb(30 64 175);
+
+  --color-text-primary-hover-light: rgb(31 41 55);
+  --color-text-primary-hover-dark: rgb(229 231 235);
+  --color-text-secondary-hover-light: rgb(75 85 99);
+  --color-text-secondary-hover-dark: rgb(156 163 175);
+  --color-text-tertiary-hover-light: rgb(107 114 128);
+  --color-text-tertiary-hover-dark: rgb(161 166 176);
+  --color-text-danger-hover-light: rgb(185 28 28);
+  --color-text-danger-hover-dark: rgb(185 28 28);
+  --color-text-success-hover-light: rgb(22 101 52);
+  --color-text-success-hover-dark: rgb(34 197 94);
+  --color-text-warning-hover-light: rgb(180 83 9);
+  --color-text-warning-hover-dark: rgb(234 179 8);
+  --color-text-info-hover-light: rgb(7 89 133);
+  --color-text-info-hover-dark: rgb(14 165 233);
+  --color-text-accent-hover-light: rgb(74 144 226);
+  --color-text-accent-hover-dark: rgb(74 144 226);
+  
+
+
+  --color-border-primary-default-light: rgb(209 213 219);
+  --color-border-primary-default-dark: rgb(31 41 55);
+  --color-border-secondary-default-light: rgb(2 6 23);
+  --color-border-secondary-default-dark: rgb(2 6 23);
+  --color-border-tertiary-default-light: rgb(229 231 235);
+  --color-border-tertiary-default-dark: rgb(55 65 81);
+  --color-border-accent-default-light: rgb(74 144 226);
+  --color-border-accent-default-dark: rgb(74 144 226);
+
+  --color-border-primary-active-light: rgb(156 163 175);
+  --color-border-primary-active-dark: rgb(107 114 128);
+  --color-border-secondary-active-light: rgb(17 24 39);
+  --color-border-secondary-active-dark: rgb(229 231 235);
+  --color-border-tertiary-active-light: rgb(107 114 128);
+  --color-border-tertiary-active-dark: rgb(156 163 175);
+  --color-border-accent-active-light: rgb(59 130 246);
+  --color-border-accent-active-dark: rgb(59 130 246);
+
+  --color-border-primary-hover-light: rgb(156 163 175);
+  --color-border-primary-hover-dark: rgb(107 114 128);
+  --color-border-secondary-hover-light: rgb(229 231 235);
+  --color-border-secondary-hover-dark: rgb(31 41 55);
+  --color-border-tertiary-hover-light: rgb(156 163 175);
+  --color-border-tertiary-hover-dark: rgb(107 114 128);
+  --color-border-accent-hover-light: rgb(95 147 229);
+  --color-border-accent-hover-dark: rgb(95 147 229);
+
+  --color-border-primary-disabled-light: rgb(243 244 246);
+  --color-border-primary-disabled-dark: rgb(17 24 39);
+  --color-border-secondary-disabled-light: rgb(209 213 219);
+  --color-border-secondary-disabled-dark: rgb(55 65 81);
+  --color-border-tertiary-disabled-light: rgb(229 231 235);
+  --color-border-tertiary-disabled-dark: rgb(31 41 55);
+  --color-border-accent-disabled-light: rgb(191 219 254);
+  --color-border-accent-disabled-dark: rgb(30 64 175);
+  --color-border-danger-default-light: rgb(220 38 38);
+  --color-border-danger-default-dark: rgb(127 29 29);
+  --color-border-success-default-light: rgb(22 163 74);
+  --color-border-success-default-dark: rgb(22 163 74);
+  --color-border-warning-default-light: rgb(217 119 6);
+  --color-border-warning-default-dark: rgb(245 158 11);
+
+  
+
+  --color-icon-primary-default-light: rgb(75 85 99);
+  --color-icon-primary-default-dark: rgb(156 163 175);
+  --color-icon-secondary-default-light: rgb(107 114 128);
+  --color-icon-secondary-default-dark: rgb(107 114 128);
+  --color-icon-success-default-light: rgb(21 128 61);
+  --color-icon-success-default-dark: rgb(74 222 128);
+  --color-icon-warning-default-light: rgb(180 83 9);
+  --color-icon-warning-default-dark: rgb(250 204 21);
+  --color-icon-info-default-light: rgb(3 105 161);
+  --color-icon-info-default-dark: rgb(56 189 248);
+  --color-icon-danger-default-light: rgb(220 38 38);
+  --color-icon-danger-default-dark: rgb(248 113 113);
+  --color-icon-accent-default-light: rgb(59 130 246);
+  --color-icon-accent-default-dark: rgb(96 165 250);
+
+  --color-icon-primary-hover-light: rgb(55 65 81);
+  --color-icon-primary-hover-dark: rgb(209 213 219);
+  --color-icon-secondary-hover-light: rgb(107 114 128);
+  --color-icon-secondary-hover-dark: rgb(156 163 175);
+  --color-icon-success-hover-light: rgb(22 101 52);
+  --color-icon-success-hover-dark: rgb(34 197 94);
+  --color-icon-warning-hover-light: rgb(180 83 9);
+  --color-icon-warning-hover-dark: rgb(234 179 8);
+  --color-icon-info-hover-light: rgb(7 89 133);
+  --color-icon-info-hover-dark: rgb(14 165 233);
+  --color-icon-danger-hover-light: rgb(185 28 28);
+  --color-icon-danger-hover-dark: rgb(185 28 28);
+  --color-icon-accent-hover-light: rgb(74 144 226);
+  --color-icon-accent-hover-dark: rgb(74 144 226);
+
+  --color-icon-primary-active-light: rgb(17 24 39);
+  --color-icon-primary-active-dark: rgb(229 231 235);
+  --color-icon-secondary-active-light: rgb(74 144 226);
+  --color-icon-secondary-active-dark: rgb(74 144 226);
+  --color-icon-success-active-light: rgb(21 128 61);
+  --color-icon-success-active-dark: rgb(22 163 74);
+  --color-icon-warning-active-light: rgb(202 138 4);
+  --color-icon-warning-active-dark: rgb(217 119 6);
+  --color-icon-info-active-light: rgb(3 105 161);
+  --color-icon-info-active-dark: rgb(2 132 199);
+  --color-icon-danger-active-light: rgb(220 38 38);
+  --color-icon-danger-active-dark: rgb(220 38 38);
+  --color-icon-accent-active-light: rgb(255 255 255);
+  --color-icon-accent-active-dark: rgb(255 255 255);
+
+  --color-icon-primary-disabled-light: rgb(209 213 219);
+  --color-icon-primary-disabled-dark: rgb(55 65 81);
+  --color-icon-secondary-disabled-light: rgb(229 231 235);
+  --color-icon-secondary-disabled-dark: rgb(31 41 55);
+  --color-icon-success-disabled-light: rgb(187 247 208);
+  --color-icon-success-disabled-dark: rgb(20 83 45);
+  --color-icon-warning-disabled-light: rgb(253 224 71);
+  --color-icon-warning-disabled-dark: rgb(113 63 18);
+  --color-icon-info-disabled-light: rgb(186 230 253);
+  --color-icon-info-disabled-dark: rgb(12 74 110);
+  --color-icon-danger-disabled-light: rgb(252 165 165);
+  --color-icon-danger-disabled-dark: rgb(127 29 29);
+  --color-icon-accent-disabled-light: rgb(147 197 253);
+  --color-icon-accent-disabled-dark: rgb(30 64 175);
+
+
+  --color-bg-surface-blue-default-light: rgb(219 234 254);
+  --color-bg-surface-blue-default-dark: rgb(30 58 138 / 0.4);
+  --color-border-blue-default-light: rgb(96 165 250);
+  --color-border-blue-default-dark: rgb(37 99 235);
+  --color-text-blue-default-light: rgb(30 64 175);
+  --color-text-blue-default-dark: rgb(191 219 254);
+  --color-text-blue-accent-light: rgb(37 99 235);
+  --color-text-blue-accent-dark: rgb(147 197 253);
+
+  --color-bg-surface-purple-default-light: rgb(243 232 255);
+  --color-bg-surface-purple-default-dark: rgb(88 28 135 / 0.4);
+  --color-border-purple-default-light: rgb(192 132 252);
+  --color-border-purple-default-dark: rgb(147 51 234);
+  --color-text-purple-default-light: rgb(107 33 168);
+  --color-text-purple-default-dark: rgb(233 213 255);
+  --color-text-purple-accent-light: rgb(147 51 234);
+  --color-text-purple-accent-dark: rgb(192 132 252);
+
+  --color-bg-surface-green-default-light: rgb(220 252 231);
+  --color-bg-surface-green-default-dark: rgb(20 83 45 / 0.4);
+  --color-border-green-default-light: rgb(74 222 128);
+  --color-border-green-default-dark: rgb(22 163 74);
+  --color-text-green-default-light: rgb(21 128 61);
+  --color-text-green-default-dark: rgb(187 247 208);
+  --color-text-green-accent-light: rgb(22 163 74);
+  --color-text-green-accent-dark: rgb(74 222 128);
+
+  --color-bg-surface-amber-default-light: rgb(254 243 199);
+  --color-bg-surface-amber-default-dark: rgb(120 53 15 / 0.4);
+  --color-border-amber-default-light: rgb(251 191 36);
+  --color-border-amber-default-dark: rgb(217 119 6);
+  --color-text-amber-default-light: rgb(180 83 9);
+  --color-text-amber-default-dark: rgb(253 230 138);
+  --color-text-amber-accent-light: rgb(217 119 6);
+  --color-text-amber-accent-dark: rgb(251 191 36);
+
+  --color-bg-surface-red-default-light: rgb(254 226 226);
+  --color-bg-surface-red-default-dark: rgb(127 29 29 / 0.2);
+  --color-border-red-default-light: rgb(248 113 113);
+  --color-border-red-default-dark: rgb(220 38 38);
+  --color-text-red-default-light: rgb(185 28 28);
+  --color-text-red-default-dark: rgb(254 202 202);
+
+
+  --color-shadow-light: rgb(0 0 0 / 0.1);
+  --color-shadow-dark: rgb(74 144 226 / 0.25);
+}
+
+/* Chat theme tokens — used by feature/chat components */
+:root {
+  --primary: rgb(37 99 235);
+  --primary-10: rgba(37, 99, 235, 0.10);
+  --text-primary: rgb(17 24 39);
+  --text-secondary: rgb(75 85 99);
+  --text-tertiary: rgb(107 114 128);
+  --surface: rgb(255 255 255);
+  --surface-elevated: rgb(249 250 251);
+  --surface-subtle: color-mix(in srgb, var(--text-primary) 3%, transparent);
+  --surface-hover: color-mix(in srgb, var(--text-primary) 5%, transparent);
+  --surface-active: color-mix(in srgb, var(--text-primary) 8%, transparent);
+  --border-subtle: color-mix(in srgb, var(--text-primary) 8%, transparent);
+  --border-hover: color-mix(in srgb, var(--text-primary) 15%, transparent);
+  --bg-card: rgb(255 255 255);
+}
+
+[data-theme="dark"] {
+  --primary: rgb(59 130 246);
+  --primary-10: rgba(59, 130, 246, 0.10);
+  --text-primary: rgb(243 244 246);
+  --text-secondary: rgb(209 213 219);
+  --text-tertiary: rgb(156 163 175);
+  --surface: rgb(31 41 55);
+  --surface-elevated: rgb(17 24 39);
+  --surface-subtle: color-mix(in srgb, var(--text-primary) 3%, transparent);
+  --surface-hover: color-mix(in srgb, var(--text-primary) 5%, transparent);
+  --surface-active: color-mix(in srgb, var(--text-primary) 8%, transparent);
+  --border-subtle: color-mix(in srgb, var(--text-primary) 8%, transparent);
+  --border-hover: color-mix(in srgb, var(--text-primary) 15%, transparent);
+  --bg-card: rgb(30 41 59);
+}
+
+*, *::before, *::after, html, body {
+  box-sizing: border-box;
+	/* cursor: none !important; */
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, fill 0.3s ease, stroke 0.3s ease !important;
+}
+
+/* Restore default interactive cursors (was previously overridden by custom cursor) */
+button:not(:disabled),
+a:not(:disabled),
+input[type="submit"]:not(:disabled),
+input[type="button"]:not(:disabled),
+input[type="reset"]:not(:disabled),
+select:not(:disabled),
+label,
+[role="button"],
+[role="tab"],
+[role="menuitem"],
+[role="option"],
+[role="switch"] {
+  cursor: pointer;
+}
+
+/* Utility to completely disable transitions for an element and its children.
+   Used where instant visual changes are required (e.g., table row hover). */
+.no-transitions, .no-transitions * {
+  transition: none !important;
+}
+
+svg:focus, svg *:focus {
+  outline: none;
+}
+
+html, body, #root {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+  /* overscroll-behavior: none !important; */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+#root::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+  display: none !important;
+}
+
+.no-scrollbar {
+  overflow: auto !important;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+.no-scrollbar::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+  display: none !important;
+}
+
+/* Styled scrollbar used by form-like scrollable areas */
+.form-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border-primary-default-light) transparent;
+}
+
+[data-theme="dark"] .form-scrollbar {
+  scrollbar-color: var(--color-border-primary-default-dark) transparent;
+}
+
+.form-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.form-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.form-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--color-border-primary-default-light);
+  border-radius: 9999px;
+}
+
+[data-theme="dark"] .form-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--color-border-primary-default-dark);
+}
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
+
+/* #sidebar {
+  transition: width 300ms ease-in-out, color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, fill 0.3s ease, stroke 0.3s ease !important;
+} */
+
+/* Hide text in compact mode - text hides quickly first */
+#sidebar [data-compact="true"] > span,
+#sidebar [data-compact="true"] > svg:not(:first-child),
+#sidebar #sidebar-logout[data-compact="true"] > span {
+  opacity: 0;
+  max-width: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  transition: opacity 100ms ease-in-out, max-width 200ms ease-in-out 50ms, padding 200ms ease-in-out, margin 200ms ease-in-out !important;
+}
+
+/* Show text in expanded mode - text appears after width expands */
+#sidebar [data-compact="false"] > span,
+#sidebar [data-compact="false"] > svg:not(:first-child),
+#sidebar #sidebar-logout[data-compact="false"] > span {
+  opacity: 1;
+  max-width: 200px;
+  overflow: hidden;
+  transition: opacity 200ms ease-in-out 150ms, max-width 300ms ease-in-out !important;
+}
+
+/* Keep icons visible and prevent shrinking */
+#sidebar [data-compact] > svg:first-child {
+  flex-shrink: 0;
+}
+
+/* Center items when compact */
+#sidebar [data-compact="true"] {
+  justify-content: center;
+}
+
+.text-hidden > span {
+  opacity: 0;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.text-visible > span {
+  opacity: 1;
+  width: auto;
+}
+
+.logo-title .typewriter{
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+  width:0;
+  animation: typing var(--d,5s) steps(var(--steps,10)) var(--delay,0s) forwards;
+  will-change: width;
+}
+
+@keyframes typing{
+  from { width: 0; }
+  to   { width: var(--w); }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.2s ease-out;
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.3s ease-out;
+}
+
+@keyframes fade-in-down {
+  from {
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-fade-in-down {
+  animation: fade-in-down 0.3s ease-out;
+}
+
+@keyframes slide-out-right {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.animate-slide-out-right {
+  animation: slide-out-right 0.3s ease-in forwards;
+}
+
+@keyframes fade-out-up {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+}
+
+.animate-fade-out-up {
+  animation: fade-out-up 0.3s ease-in forwards;
+}
+
+/* Tiptap Styles */
+.ProseMirror ul {
+    list-style-type: disc;
+    padding-inline-start: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.ProseMirror ol {
+    list-style-type: decimal;
+    padding-inline-start: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.ProseMirror li {
+    margin: 0.25rem 0;
+}
+
+/* Link Styles */
+.ProseMirror a {
+    color: var(--color-text-accent-default-light);
+    text-decoration: underline;
+}
+
+.ProseMirror a:hover {
+    color: var(--color-text-accent-hover-light);
+}
+
+/* Dark mode link styles */
+[data-theme="dark"] .ProseMirror a {
+    color: var(--color-text-accent-default-dark);
+}
+
+[data-theme="dark"] .ProseMirror a:hover {
+    color: var(--color-text-accent-hover-dark);
+}
+
+/* Highlight Styles */
+.ProseMirror mark {
+    background-color: var(--color-bg-surface-warning-default-light);
+    padding: 0.1rem 0.2rem;
+    border-radius: 0.2rem;
+}
+
+[data-theme="dark"] .ProseMirror mark {
+    background-color: var(--color-bg-surface-warning-default-dark);
+    color: var(--color-bg-surface-warning-disabled-light);
+}
+
+/* Editor text color */
+.ProseMirror {
+    color: var(--color-text-primary-default-light);
+}
+
+[data-theme="dark"] .ProseMirror {
+    color: var(--color-text-primary-default-dark);
+}
+
+/* Focus outline for editor */
+.ProseMirror:focus {
+    outline: none;
+}
+
+/* Placeholder styles */
+.ProseMirror p.is-editor-empty:first-child::before {
+    color: var(--color-text-tertiary-default-light);
+    content: attr(data-placeholder);
+    float: inline-start;
+    height: 0;
+    pointer-events: none;
+}
+
+[data-theme="dark"] .ProseMirror p.is-editor-empty:first-child::before {
+    color: var(--color-text-tertiary-default-dark);
+}
+

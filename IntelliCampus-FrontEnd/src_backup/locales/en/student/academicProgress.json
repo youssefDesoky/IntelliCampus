@@ -1,0 +1,14 @@
+{
+  "academicProgress.title": "Academic Progress",
+  "academicProgress.gpa": "GPA",
+  "academicProgress.completedHours": "Completed Hours",
+  "academicProgress.remainingHours": "Remaining Hours",
+  "academicProgress.level": "Level",
+  "academicProgress.semester": "Semester",
+  "academicProgress.subtitle": "Track your degree completion by requirement category",
+  "academicProgress.completed": "Completed: {{completed}} / {{total}} hrs",
+  "academicProgress.progress": "Progress",
+  "academicProgress.noCourses": "No courses in this category yet",
+  "academicProgress.noData": "No progress data available",
+  "academicProgress.noDataDesc": "Your academic progress information could not be loaded."
+}

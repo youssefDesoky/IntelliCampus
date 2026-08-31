@@ -1,0 +1,13 @@
+const LockIconDark = ({ size, ...props }) => (
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    viewBox="0 0 640 640" 
+    fill="currentColor" 
+    width={size} 
+    height={size}
+    {...props}
+  >
+    <path d="M256 160v64h128v-64c0-35.3-28.7-64-64-64s-64 28.7-64 64m-64 64v-64c0-70.7 57.3-128 128-128s128 57.3 128 128v64c35.3 0 64 28.7 64 64v224c0 35.3-28.7 64-64 64H192c-35.3 0-64-28.7-64-64V288c0-35.3 28.7-64 64-64" />
+  </svg>
+);
+export default LockIconDark;

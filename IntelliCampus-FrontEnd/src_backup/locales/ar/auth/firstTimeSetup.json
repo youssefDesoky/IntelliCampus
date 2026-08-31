@@ -1,0 +1,18 @@
+{
+  "firstTimeSetup.step1Title": "الإعداد الأولي",
+  "firstTimeSetup.step2Title": "التحقق وتعيين كلمة المرور",
+  "firstTimeSetup.step1Subtitle": "قم بإعداد بريد استردادي للبدء",
+  "firstTimeSetup.step2Subtitle": "أدخل الرمز المرسل إلى بريدك وحدد كلمة مرور جديدة",
+  "firstTimeSetup.recoveryEmailLabel": "البريد الاستردادي",
+  "firstTimeSetup.recoveryEmailPlaceholder": "your@personal-email.com",
+  "firstTimeSetup.sendCode": "إرسال رمز التحقق",
+  "firstTimeSetup.codeLabel": "رمز التحقق",
+  "firstTimeSetup.codePlaceholder": "رمز من 6 أرقام",
+  "firstTimeSetup.newPasswordLabel": "كلمة المرور الجديدة",
+  "firstTimeSetup.newPasswordPlaceholder": "6 أحرف على الأقل",
+  "firstTimeSetup.confirmLabel": "تأكيد كلمة المرور",
+  "firstTimeSetup.confirmPlaceholder": "أعد إدخال كلمة المرور الجديدة",
+  "firstTimeSetup.completeSetup": "إكمال الإعداد",
+  "firstTimeSetup.toastCodeSent": "تحقق من بريدك الإلكتروني للحصول على رمز التحقق.",
+  "firstTimeSetup.toastDone": "حسابك جاهز. جارٍ إعادة التوجيه..."
+}

@@ -1,0 +1,9 @@
+{
+  "courseRegistration.title": "إعدادات تسجيل المقررات",
+  "courseRegistration.addBucket": "إنشاء حزمة",
+  "courseRegistration.editBucket": "تعديل الحزمة",
+  "courseRegistration.electiveBucket": "حزمة المقررات الاختيارية",
+  "courseRegistration.bucketName": "اسم الحزمة",
+  "courseRegistration.bucketNameAr": "اسم الحزمة بالعربية",
+  "courseRegistration.selectCourses": "اختر المقررات"
+}

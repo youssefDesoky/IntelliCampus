@@ -1,0 +1,4 @@
+{
+  "schedule.exportError": "فشل تصدير PDF. يرجى المحاولة مرة أخرى.",
+  "schedule.eventClick": "نقر على الحدث: {{title}}"
+}

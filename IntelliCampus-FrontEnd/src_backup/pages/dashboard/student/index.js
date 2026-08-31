@@ -1,0 +1,14 @@
+export { default as Profile } from "./Profile";
+export { default as Schedule } from "./Schedule";
+export { default as Dashboard } from "./Dashboard";
+export { default as StudyGroup } from "./StudyGroup";
+export { default as Reminders } from "./Reminders";
+export { default as MyCourses } from "./MyCourses";
+export { default as SmartNotes } from "./SmartNotes";
+export { default as CourseMaterials } from "./CourseMaterials";
+export { default as CoursePrerequisites } from "./CoursePrerequisites";
+export { default as CoursesRegistration } from "./CoursesRegistration";
+export { default as SpecializationPreference } from "./SpecializationPreference";
+export { default as StudyGroupPostDetail } from "./StudyGroupPostDetail";
+export { default as AcademicProgress } from "./AcademicProgress";
+export { default as Transcript } from "./TranscriptPage";
